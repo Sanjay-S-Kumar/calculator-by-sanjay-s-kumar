@@ -8,5 +8,5 @@ function clearscr(val){
 function result(){
     var text= document.getElementById("screen").value
     var answer =eval(text)
-    document.getElementById("screen").value=answer
+    document.getElementById("screen").value=text+'='+answer
 }
