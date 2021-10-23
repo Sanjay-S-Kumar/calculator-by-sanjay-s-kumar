@@ -1,0 +1,54 @@
+.calc{
+    width: 360px;
+    height:600px;
+    background: gray;
+    margin-left: 550px;
+    border-radius: 30px;
+    border: rgb(7, 7, 15) solid;
+    border-style: ridge;
+}
+.output{
+    padding-left: 28px;
+    padding-top: 30px;
+
+    
+    
+}
+
+#screen{
+    width: 90%;
+    height: 80px;
+    pointer-events: none;
+    border-radius: 10px;
+    background: greenyellow; 
+    font-weight: bold;
+    font-size: 30px;
+    color: brown;
+}
+.number{
+    margin: 15px;
+    width: 55px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    background: blue;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.buttons{
+    padding-top: 50px;
+    padding-left: 5px;
+    
+}
+#owner{
+    font-weight: bold;
+    color: rgb(68, 0, 255);
+    size:30px ;
+    margin-left: 100px;
+    font-family: cursive;
+}
+.number:hover{
+    background: darkviolet;
+}
